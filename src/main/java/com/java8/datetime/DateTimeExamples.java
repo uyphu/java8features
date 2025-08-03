@@ -264,12 +264,13 @@ public class DateTimeExamples {
         
         // Localized formatters
         DateTimeFormatter localizedFormatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
-        System.out.println("Localized format: " + now.format(localizedFormatter));
+        ZonedDateTime zonedNow = ZonedDateTime.now();
+        System.out.println("Localized format: " + zonedNow.format(localizedFormatter));
         
         // Formatter with locale
         DateTimeFormatter frenchFormatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL)
                 .withLocale(Locale.FRENCH);
-        System.out.println("French format: " + now.format(frenchFormatter));
+        System.out.println("French format: " + zonedNow.format(frenchFormatter));
         
         // Formatting individual components
         LocalDate date = LocalDate.now();
