@@ -5,6 +5,7 @@ import com.java8.streams.StreamExamples;
 import com.java8.optional.OptionalExamples;
 import com.java8.methodreferences.MethodReferenceExamples;
 import com.java8.datetime.DateTimeExamples;
+import com.java8.defaultmethods.DefaultMethodExamples;
 
 /**
  * Main runner class for Java 8 features examples
@@ -67,6 +68,19 @@ public class Java8FeaturesRunner {
         methodRefExamples.methodReferencesWithStreams();
         methodRefExamples.comparisonWithLambdas();
         methodRefExamples.complexMethodReferences();
+        
+        System.out.println("\n" + "=".repeat(50) + "\n");
+        
+        // Run Default Methods Examples
+        System.out.println("Running Default Methods Examples...");
+        DefaultMethodExamples defaultMethodExamples = new DefaultMethodExamples();
+        defaultMethodExamples.basicDefaultMethods();
+        defaultMethodExamples.multipleInheritance();
+        defaultMethodExamples.defaultMethodsWithCollections();
+        defaultMethodExamples.defaultMethodsInFunctionalInterfaces();
+        defaultMethodExamples.defaultMethodsWithStreams();
+        defaultMethodExamples.defaultMethodsBestPractices();
+        defaultMethodExamples.defaultMethodsVsAbstractClasses();
         
         System.out.println("\n" + "=".repeat(50) + "\n");
         
