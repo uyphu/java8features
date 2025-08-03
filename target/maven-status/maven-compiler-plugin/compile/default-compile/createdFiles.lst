@@ -9,6 +9,7 @@ com/java8/methodreferences/MethodReferenceExamples$StringProcessor.class
 com/java8/defaultmethods/DefaultMethodExamples$ConsoleLogger.class
 com/java8/Java8FeaturesRunner.class
 com/java8/defaultmethods/DefaultMethodExamples$Dog.class
+com/java8/nashorn/NashornExamples.class
 com/java8/optional/OptionalExamples$Person.class
 com/java8/methodreferences/MethodReferenceExamples$Person.class
 com/java8/completablefuture/CompletableFutureExamples.class
@@ -16,6 +17,7 @@ com/java8/defaultmethods/DefaultMethodExamples$Shape.class
 com/java8/defaultmethods/DefaultMethodExamples$Calculator.class
 com/java8/datetime/DateTimeExamples.class
 com/java8/defaultmethods/DefaultMethodExamples$FileLogger.class
+com/java8/nashorn/NashornExamples$1.class
 com/java8/optional/OptionalExamples$Address.class
 com/java8/defaultmethods/DefaultMethodExamples$StringValidator.class
 com/java8/defaultmethods/DefaultMethodExamples$Motorcycle.class
@@ -25,6 +27,7 @@ com/java8/methodreferences/MethodReferenceExamples$PersonFactory.class
 com/java8/completablefuture/CompletableFutureExamples$Order.class
 com/java8/defaultmethods/DefaultMethodExamples$Device.class
 com/java8/defaultmethods/DefaultMethodExamples$BasicCalculator.class
+com/java8/nashorn/NashornExamples$Person.class
 com/java8/streams/StreamExamples$Person.class
 com/java8/defaultmethods/DefaultMethodExamples$DataProcessor.class
 com/java8/defaultmethods/DefaultMethodExamples$Computer.class

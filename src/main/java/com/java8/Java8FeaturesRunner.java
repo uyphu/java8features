@@ -7,6 +7,7 @@ import com.java8.methodreferences.MethodReferenceExamples;
 import com.java8.datetime.DateTimeExamples;
 import com.java8.defaultmethods.DefaultMethodExamples;
 import com.java8.completablefuture.CompletableFutureExamples;
+import com.java8.nashorn.NashornExamples;
 
 /**
  * Main runner class for Java 8 features examples
@@ -111,6 +112,20 @@ public class Java8FeaturesRunner {
         dateTimeExamples.timeZones();
         dateTimeExamples.legacyDateConversion();
         dateTimeExamples.dateTimeCalculations();
+        
+        System.out.println("\n" + "=".repeat(50) + "\n");
+        
+        // Run Nashorn Examples
+        System.out.println("Running Nashorn JavaScript Engine Examples...");
+        NashornExamples nashornExamples = new NashornExamples();
+        nashornExamples.basicJavaScriptExecution();
+        nashornExamples.javaJavaScriptInterop();
+        nashornExamples.scriptEvaluation();
+        nashornExamples.functionExecution();
+        nashornExamples.objectManipulation();
+        nashornExamples.errorHandling();
+        nashornExamples.practicalExamples();
+        nashornExamples.performanceConsiderations();
         
         System.out.println("\n==========================================");
         System.out.println("    All Java 8 Features Examples Completed!");

@@ -7,6 +7,7 @@ import com.java8.methodreferences.MethodReferenceExamples;
 import com.java8.datetime.DateTimeExamples;
 import com.java8.defaultmethods.DefaultMethodExamples;
 import com.java8.completablefuture.CompletableFutureExamples;
+import com.java8.nashorn.NashornExamples;
 import org.junit.Test;
 
 /**
@@ -59,6 +60,13 @@ public class Java8FeaturesTest {
     @Test
     public void testCompletableFutureExamples() {
         CompletableFutureExamples examples = new CompletableFutureExamples();
+        // Basic test to ensure the class can be instantiated
+        assert examples != null;
+    }
+    
+    @Test
+    public void testNashornExamples() {
+        NashornExamples examples = new NashornExamples();
         // Basic test to ensure the class can be instantiated
         assert examples != null;
     }
