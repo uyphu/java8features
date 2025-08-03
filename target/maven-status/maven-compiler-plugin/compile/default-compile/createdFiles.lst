@@ -11,6 +11,7 @@ com/java8/Java8FeaturesRunner.class
 com/java8/defaultmethods/DefaultMethodExamples$Dog.class
 com/java8/optional/OptionalExamples$Person.class
 com/java8/methodreferences/MethodReferenceExamples$Person.class
+com/java8/completablefuture/CompletableFutureExamples.class
 com/java8/defaultmethods/DefaultMethodExamples$Shape.class
 com/java8/defaultmethods/DefaultMethodExamples$Calculator.class
 com/java8/datetime/DateTimeExamples.class
@@ -21,14 +22,17 @@ com/java8/defaultmethods/DefaultMethodExamples$Motorcycle.class
 com/java8/defaultmethods/DefaultMethodExamples$StringProcessor.class
 com/java8/methodreferences/MethodReferenceExamples.class
 com/java8/methodreferences/MethodReferenceExamples$PersonFactory.class
+com/java8/completablefuture/CompletableFutureExamples$Order.class
 com/java8/defaultmethods/DefaultMethodExamples$Device.class
 com/java8/defaultmethods/DefaultMethodExamples$BasicCalculator.class
 com/java8/streams/StreamExamples$Person.class
 com/java8/defaultmethods/DefaultMethodExamples$DataProcessor.class
 com/java8/defaultmethods/DefaultMethodExamples$Computer.class
 com/java8/lambda/LambdaExamples$MathOperation.class
+com/java8/completablefuture/CompletableFutureExamples$User.class
 com/java8/defaultmethods/DefaultMethodExamples$Validator.class
 com/java8/defaultmethods/DefaultMethodExamples.class
+com/java8/completablefuture/CompletableFutureExamples$UserProfile.class
 com/java8/defaultmethods/DefaultMethodExamples$Animal.class
 com/java8/defaultmethods/DefaultMethodExamples$Vehicle.class
 com/java8/defaultmethods/DefaultMethodExamples$Circle.class

@@ -6,6 +6,7 @@ import com.java8.optional.OptionalExamples;
 import com.java8.methodreferences.MethodReferenceExamples;
 import com.java8.datetime.DateTimeExamples;
 import com.java8.defaultmethods.DefaultMethodExamples;
+import com.java8.completablefuture.CompletableFutureExamples;
 
 /**
  * Main runner class for Java 8 features examples
@@ -81,6 +82,20 @@ public class Java8FeaturesRunner {
         defaultMethodExamples.defaultMethodsWithStreams();
         defaultMethodExamples.defaultMethodsBestPractices();
         defaultMethodExamples.defaultMethodsVsAbstractClasses();
+        
+        System.out.println("\n" + "=".repeat(50) + "\n");
+        
+        // Run CompletableFuture Examples
+        System.out.println("Running CompletableFuture Examples...");
+        CompletableFutureExamples completableFutureExamples = new CompletableFutureExamples();
+        completableFutureExamples.basicCompletableFuture();
+        completableFutureExamples.asynchronousOperations();
+        completableFutureExamples.combiningCompletableFutures();
+        completableFutureExamples.exceptionHandling();
+        completableFutureExamples.completableFutureWithStreams();
+        completableFutureExamples.practicalExamples();
+        completableFutureExamples.completableFutureVsFuture();
+        completableFutureExamples.bestPractices();
         
         System.out.println("\n" + "=".repeat(50) + "\n");
         
