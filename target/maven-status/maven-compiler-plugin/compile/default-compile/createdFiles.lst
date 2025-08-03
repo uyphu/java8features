@@ -1,0 +1,15 @@
+com/java8/methodreferences/MethodReferenceExamples.class
+com/java8/methodreferences/MethodReferenceExamples$StringUtils.class
+com/java8/methodreferences/MethodReferenceExamples$PersonFactory.class
+com/java8/lambda/LambdaExamples.class
+com/java8/optional/OptionalExamples.class
+com/java8/streams/StreamExamples$Person.class
+com/java8/methodreferences/MethodReferenceExamples$StringProcessor.class
+com/java8/lambda/LambdaExamples$MathOperation.class
+com/java8/Java8FeaturesRunner.class
+com/java8/optional/OptionalExamples$Person.class
+com/java8/methodreferences/MethodReferenceExamples$Person.class
+com/java8/datetime/DateTimeExamples.class
+com/java8/optional/OptionalExamples$Address.class
+com/java8/optional/OptionalExamples$CustomException.class
+com/java8/streams/StreamExamples.class
